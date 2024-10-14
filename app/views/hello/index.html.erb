@@ -1,1 +1,5 @@
 <h1>hello!</h1>
+<h2><%= @apps.count %></h2>
+<% @apps.each do |app| %>
+    <div><%= app.name %></div>
+<% end %>
